@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo's Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left bg-gray">
+            <div class="home">
+                <div class="first">
+                    <div class="logo">
+                        <img class="invert" src=" SVG/logo.svg" alt="">
+                    </div>
+                    <div class="search">
+                        <form><img src="SVG/search.svg">
+                            <input src="" aria-multiline="false" aria-label="Search" aria-controls="search-suggestions"
+                                placeholder="Search" spellcheck="false" autocomplete="off" autocorrect="off"
+                                autocapitalize="off" type="search">
+                        </form>
+                    </div>
+                </div>
+                <div class="second">
+                    <ul>
+                        <li><img src="SVG/home.svg" alt="home">Home</li>
+                        <li><img src="SVG/new.svg" alt="new">New</li>
+                        <li><img src="SVG/radio.svg" alt="radio">Radio</li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><img src="SVG/music.svg"><a href="open in app"><span>Open in Music</span></a>
+                        <img width="10px" src="SVG/arrow.svg">
+                    </div>
+                    <div><a href="Try Beta"><span>Try Beta</span></a><img width="10px" src="SVG/arrow.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header ">
+                <div class="firsth ">
+                    <img class="btns" src="SVG/shuffle.svg" alt="">
+                    <img class="back btns" src="SVG/playback.svg" alt="">
+                    <img class="btns" src="SVG/play.svg" alt="">
+                    <img class="btns" src="SVG/playforward.svg" alt="">
+                    <img class="btns" src="SVG/repeat.svg" alt="">
+                </div>
+                <div class="secondh ">
+                    <div class="m ">
+                        <img src="SVG/music1.svg" alt="">
+                    </div>
+                    <div class="apple ">
+                        <img src="SVG/apple.svg" alt="">
+                    </div>
+                </div>
+                <div class="thirdh  ">
+                    <div class="volume">
+                        <img src="SVG/vol0.svg" alt="">
+                        <input id="range" type="range" min="0" max="1" step=".01" dir="ltr" aria-label="Volume"
+                            aria-valuetext="0%" role="slider" aria-valuemin="0" aria-valuenow="0" aria-valuemax="1"
+                            aria-orientation="horizontal" style="--progress: 0%;">
+
+                    </div>
+
+                    <div class="sign">
+                        
+                        <img id="view" src="SVG/viewbox.svg" alt="">
+
+                        <div>
+                            <img class="si" src="SVG/signin.svg" alt="">
+                            <!-- <button class="signinbtn">SignIn</button> -->
+                            <a href="/">signin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="head">
+                    My Playlist
+                </div>
+                <ul>
+                   
+                </ul>
+
+            </div>
+            <div class="appleplaylist">
+                <div class="release">
+                    <h1>New Releases</h1>
+                    <svg class="chevron" width="20px" height="20px" fill="hwb(0 85% 15%)"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+                        <path
+                            d="M19.817 61.863c1.48 0 2.672-.515 3.702-1.546l24.243-23.63c1.352-1.385 1.996-2.737 2.028-4.443 0-1.674-.644-3.09-2.028-4.443L23.519 4.138c-1.03-.998-2.253-1.513-3.702-1.513-2.994 0-5.409 2.382-5.409 5.344 0 1.481.612 2.833 1.739 3.96l20.99 20.347-20.99 20.283c-1.127 1.126-1.739 2.478-1.739 3.96 0 2.93 2.415 5.344 5.409 5.344Z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="cardcontainer">
+
+                    <div class="card">
+                        <div class="play">
+                            <div class="svg-container">
+                                <svg viewBox="0 0 32 28" xmlns="http://www.w3.org/2000/svg" class="icon-svg">
+                                    <path
+                                        d="M10.345 23.287c.415 0 .763-.15 1.22-.407l12.742-7.404c.838-.481 1.178-.855 1.178-1.46 0-.599-.34-.972-1.178-1.462L11.565 5.158c-.457-.265-.805-.407-1.22-.407-.789 0-1.345.606-1.345 1.57V21.71c0 .971.556 1.577 1.345 1.577z"
+                                        fill-rule="nonzero"></path>
+                                </svg>
+                            </div>
+                            <div class="svg-container">
+                                <svg class="icon-svg" fill="hsl(0deg 0% 100% / 92%)" id="Layer_1" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                    <path class="cls-1"
+                                        d="M8,6.5A1.5,1.5,0,1,1,6.5,8,1.5,1.5,0,0,1,8,6.5ZM.5,8A1.5,1.5,0,1,0,2,6.5,1.5,1.5,0,0,0,.5,8Zm12,0A1.5,1.5,0,1,0,14,6.5,1.5,1.5,0,0,0,12.5,8Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/b4/0e/e5b40e16-026c-9338-454b-a616e2356e49/24UM1IM32998.rgb.jpg/316x316bf.webp"
+                            alt="">
+                        <p><b>Apple Music Sessions: Kamakshi Khanna - Single</b></p>
+                        <p>Kamakshi Khanna</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <div class="svg-container">
+                                <svg viewBox="0 0 32 28" xmlns="http://www.w3.org/2000/svg" class="icon-svg">
+                                    <path
+                                        d="M10.345 23.287c.415 0 .763-.15 1.22-.407l12.742-7.404c.838-.481 1.178-.855 1.178-1.46 0-.599-.34-.972-1.178-1.462L11.565 5.158c-.457-.265-.805-.407-1.22-.407-.789 0-1.345.606-1.345 1.57V21.71c0 .971.556 1.577 1.345 1.577z"
+                                        fill-rule="nonzero"></path>
+                                </svg>
+                            </div>
+                            <div class="svg-container">
+                                <svg class="icon-svg" fill="hsl(0deg 0% 100% / 92%)" id="Layer_1" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                    <path class="cls-1"
+                                        d="M8,6.5A1.5,1.5,0,1,1,6.5,8,1.5,1.5,0,0,1,8,6.5ZM.5,8A1.5,1.5,0,1,0,2,6.5,1.5,1.5,0,0,0,.5,8Zm12,0A1.5,1.5,0,1,0,14,6.5,1.5,1.5,0,0,0,12.5,8Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/b4/0e/e5b40e16-026c-9338-454b-a616e2356e49/24UM1IM32998.rgb.jpg/316x316bf.webp"
+                            alt="">
+                        <p><b>Apple Music Sessions: Kamakshi Khanna - Single</b></p>
+                        <p>Kamakshi Khanna</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

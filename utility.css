@@ -1,0 +1,75 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.btns{
+    width: 33px;
+    height: 33px;
+    
+}
+
+/* Apply to all scrollable elements */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+    /* Dark gray for the scrollbar handle */
+    border-radius: 5px;
+    /* Rounded corners for a modern look */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+    /* Slightly lighter gray on hover for feedback */
+}
+
+::-webkit-scrollbar-track {
+    background: #222;
+    /* Very dark background for the track */
+    border-radius: 5px;
+    /* Match the thumb's rounded corners */
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #333;
+    /* Lighter dark gray for hover effect */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    /* Slim scrollbar */
+    scrollbar-color: #444 #222;
+    /* Thumb color, Track color */
+}
+
+/* Optional: Add this for specific elements only */
+.scrollable-element {
+    overflow-y: auto;
+    /* Ensure the element is scrollable */
+}
+
+/* color - #fa586a */
+
+
+/* <svg fill="#ffffff" height="11" viewBox="0 0 10 11" width="10" class="auth-icon"><path d="M5 5.295c-1.296 0-2.385-1.176-2.385-2.678C2.61 1.152 3.716 0 5 0c1.29 0 2.39 1.128 2.39 2.611C7.39 4.12 6.297 5.295 5 5.295zM1.314 11C.337 11 0 10.698 0 10.144c0-1.55 1.929-3.685 5-3.685 3.065 0 5 2.135 5 3.685 0 .554-.337.856-1.314.856z"></path> */
