@@ -82,11 +82,6 @@ http://127.0.0.1:5500/index.html
 
 ---
 
-## 📄 License
-
-This project is released under the **MIT License** — you may use and modify it freely.
-
----
 
 ## 👤 Author
 
