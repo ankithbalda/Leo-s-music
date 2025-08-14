@@ -38,10 +38,15 @@ This application demonstrates:
 ## 📂 Project Structure
 
 ├──index.html # Main HTML file
+
 ├──style.css # Main styling
+
 ├── utility.css # Utility & helper classes
+
 ├── script.js # JavaScript logic for song fetching & playback
+
 ├── Songs/ # Folder containing .mp3 files (not included in repo)
+
 └── README.md # Documentation
 
 
